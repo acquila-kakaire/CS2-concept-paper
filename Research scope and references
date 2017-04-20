@@ -1,0 +1,32 @@
+\subsection{Research scope}{This parallel version of tarjan’s algorithms is presented based on depth-first search, for three problems relevant to model checking: given a state graph, to find its strongly connected components, which states are in loops, and which states are in “lassos”. The algorithm typically exhibits about a four-fold speed-up over the corresponding sequential algorithms on an eight-core machine\cite{ref3}.}
+
+\bibliography{conceptPaper}
+\bibliographystyle{ieeetr}
+
+@article{ref1,
+author="Gavin Lowe",
+title="Concurrent Depth-First Search Algorithm, proceedings and Algorithms for the Construction and Analysis of System",
+year="2014",
+vlolume="10"
+}
+
+@article{ref2,
+author="R.Tarjan",
+title="Depth-First Search and linear graph algorithms.",
+journal="SIAM Journal of Computing",
+number="1(2):146-160",
+year="1972"
+}
+
+@article{ref3,
+author="Gavin Lowe",
+title="Concurrent Depth-First Search Algorithms based on Tarjan's Algorithm, submitted for publication",
+year="2015"
+}
+
+@article{ref4,
+author="Sungpac ",
+author=" Hong Tayo Oguntebi and Kunle Olukotun",
+title="Efficient Parallel Graph Exploration on Multi-core CPU and GPU",
+year="2011"
+}
